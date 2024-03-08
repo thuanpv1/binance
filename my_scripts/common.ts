@@ -1,7 +1,5 @@
 import { MainClient, NewSpotOrderParams, OrderResponseFull, OrderSide, OrderType, SymbolPrice } from "../src";
-
-const key = 'xxx';
-const secret = 'yyy'
+import { key, secret } from "./key";
 
 const client = new MainClient({
     api_key: key,
